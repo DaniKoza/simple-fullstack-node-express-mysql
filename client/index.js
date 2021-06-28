@@ -5,6 +5,11 @@ document.addEventListener('DOMContentLoaded', function () {
         .catch(err => err);
 });
 
+// Add name button
+const BTN_add_name = document.querySelector('#BTN_add_name');
+
+
+
 function loadHTMLTable(data) {
     const table = document.querySelector('table tbody');
     // let tableHTML = "";
